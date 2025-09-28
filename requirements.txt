@@ -1,7 +1,7 @@
-# Core ML and Deep Learning (Python 3.13.3 compatible)
-torch==2.8.0+cpu
-torchvision==0.23.0+cpu
-torchaudio==2.8.0+cpu
+# Core ML and Deep Learning (Cloud deployment compatible)
+torch>=2.7.0,<2.9.0
+torchvision>=0.20.0,<0.25.0
+torchaudio>=2.7.0,<2.9.0
 
 # Streamlit for web interface
 streamlit
@@ -9,7 +9,6 @@ streamlit
 # Data processing and utilities
 numpy
 pandas
-pickle5
 
 # Text processing and NLP
 sentencepiece
