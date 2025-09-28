@@ -1,7 +1,7 @@
-# Core ML and Deep Learning
-torch
-torchvision
-torchaudio
+# Core ML and Deep Learning (Python 3.13.3 compatible)
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+torchaudio==2.8.0+cpu
 
 # Streamlit for web interface
 streamlit
